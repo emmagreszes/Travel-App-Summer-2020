@@ -11,7 +11,7 @@ export default
       "alt": "Antonella DiLillo"
     },
   },
-
+  {
   "id": 2,
    "City": "Jerusalem",
 
@@ -22,7 +22,7 @@ export default
      "alt": "Antonella DiLillo"
    }
  },
-
+ {
  "id": 3,
   "City": "Baltimore",
 
@@ -33,7 +33,7 @@ export default
     "alt": "Antonella DiLillo"
   },
 },
-
+{
   "id": 4,
    "City": "Teaneck",
 
@@ -44,7 +44,7 @@ export default
      "alt": "Antonella DiLillo"
    },
 },
-
+{
   "id": 5,
    "City": "Manhattan",
 
@@ -55,7 +55,7 @@ export default
      "alt": "Antonella DiLillo"
    },
 },
-
+{
   "id": 6,
    "City": "Amsterdam",
 
