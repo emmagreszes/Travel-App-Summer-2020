@@ -6,13 +6,9 @@ const Card = ({ location }) => {
     <div className='card'>
       <img src={location.img.src} className='card-img-top' alt={location.img.alt} />
       <div className='card-body'>
-        <h2 className='card-title'>{`${location.title} (${location.year})`}</h2>
+        <h2 className='card-title'>{`${location.City}, ${location.Country}`}</h2>
       </div>
-      <ul className='list-group list-group-flush'>
-        <li className='list-group-item'>{`City: ${location.City}`}</li>
-        <li className='list-group-item'>{`Country: ${location.Country}`}</li>
-      </ul>
-    </div>
+     </div>
   );
 };
 

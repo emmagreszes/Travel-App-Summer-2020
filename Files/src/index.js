@@ -16,10 +16,11 @@ const App = () => {
 
     <div className='container-fluid'>
       <nav className='navbar sticky-top navbar-light bg-dark'>
-        <h1 className='navbar-brand text-light'> My Visited Locations</h1>
+        <h1 className='navbar-brand text-light'> My Visited </h1>
       </nav>
 
       <CardList data={LocationData} />
+
 
     </div>
    </>

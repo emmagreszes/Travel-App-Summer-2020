@@ -7,9 +7,9 @@ const  LocationList = ({data,title}) => {
    <>
      <h1> {title} </h1>
      <ul>
-       {data.map(location => (
+       {data.map(movie => (
          <li key={location.id}>
-          {location.Amount} -- {location.title}
+           {location.amount} -- {location.title}
          </li>
        ))}
      </ul>

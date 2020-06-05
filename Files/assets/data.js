@@ -59,4 +59,14 @@ export default
      "alt": "Amsterdam"
    },
 },
+
+{
+  "id": 7,
+   "City": "London",
+   "Country": "England",
+   "img": {
+     "src": "media/London.jpg",
+     "alt": "London"
+   },
+},
 ]
