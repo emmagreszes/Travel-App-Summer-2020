@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CardList from './containers/CardList';
 import LocationList from './containers/LocationList';
@@ -16,7 +17,7 @@ const App = () => {
 
     <div className='container-fluid'>
       <nav className='navbar sticky-top navbar-light bg-dark'>
-        <h1 className='navbar-brand text-light'> My Visited </h1>
+        <h1 className='navbar-brand text-light'> My Visited Cities</h1>
       </nav>
 
       <CardList data={LocationData} />

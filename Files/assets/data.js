@@ -69,4 +69,34 @@ export default
      "alt": "London"
    },
 },
+
+{
+  "id": 8,
+   "City": "Tel Aviv",
+   "Country": "Israel",
+   "img": {
+     "src": "media/TelAviv.jpg",
+     "alt": "Tel Aviv"
+   },
+},
+
+{
+  "id": 9,
+   "City": "Prague",
+   "Country": "Czech Republic",
+   "img": {
+     "src": "media/prague.jpg",
+     "alt": "Prague"
+   },
+},
+
+{
+  "id": 10,
+   "City": "Los Angeles",
+   "Country": "USA",
+   "img": {
+     "src": "media/LA.jpg",
+     "alt": "Los Angeles"
+   },
+},
 ]
