@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   background-color: lavender;
   justify-content: center;
+  order: Country;
+
 }
 
 .flex-container-element {
