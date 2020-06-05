@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Card = ({ location }) => {
   return (
     <div className='card'>
-      <img src={location.img.src} className='card-img-top' alt={location.img.alt} />
+      <img src={location.img.src} className='card-img-top' alt={location.img.alt} width = "300" height = "200"/>
       <div className='card-body'>
         <h2 className='card-title'>{`${location.City}, ${location.Country}`}</h2>
       </div>
