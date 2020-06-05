@@ -8,6 +8,7 @@ p{
 
 nav{
   text-align: center;
+  overflow: hidden;
 }
 
 h2{
@@ -15,8 +16,4 @@ h2{
 }
 h3 {
   background-color: #000;
-}
-
-className.h1{
-  text-align: center;
 }
