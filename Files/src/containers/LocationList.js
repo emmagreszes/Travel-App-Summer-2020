@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-const  MovieList = ({data,title}) => {
+const  LocationList = ({data,title}) => {
   return (
    <>
      <h1> {title} </h1>
      <ul>
-       {data.map(movie => (
-         <li key={movie.id}>
-           {movie.amount} -- {movie.title}
+       {data.map(location => (
+         <li key={location.id}>
+          {location.Amount} -- {location.title}
          </li>
        ))}
      </ul>
@@ -17,11 +17,11 @@ const  MovieList = ({data,title}) => {
  );
 }
 
-MovieList.propTypes = {
+LocationList.propTypes = {
     data: PropTypes.array.isRequired,
     City: PropTypes.string.isRequired,
     Country: PropTypes.string.isRequired,
 };
 
 
-export default MovieList;
+export default LocationList;

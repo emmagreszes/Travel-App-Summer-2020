@@ -7,9 +7,9 @@ import './CardList.css'
 const CardList = ({data}) => {
   return (
    <div className='flex-container'>
-     {data.map(movie => (
-       <div key={movie.id} className='flex-container-element'>
-         <Card movie={movie} />
+     {data.map(location => (
+       <div key={location.id} className='flex-container-element'>
+         <Card location={location} />
        </div>
      ))}
    </div>
