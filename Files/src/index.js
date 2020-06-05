@@ -12,7 +12,10 @@ const App = () => {
    <>
     <div className="jumbotron">
     <h1>Travel App</h1>
-    <p>This application allows you to keep track of trips, create a destination wish list, and view other users previous trips to gain inspiration for your next travel plans! </p>
+    <p>This application allows you to keep track of trips,
+    create a destination wish list,
+    and view other users previous trips to gain inspiration
+    for your next travel plans! </p>
     </div>
 
     <div className='container-fluid'>
