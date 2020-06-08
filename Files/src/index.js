@@ -21,8 +21,13 @@ const App = () => {
 
     <div className='container'>
       <nav className='navbar sticky-top navbar-light bg-dark'>
-        <h1 className='navbar-brand text-light'>My Visited Cities</h1>
+        <h1 className='navbar-brand text-light'>Visited Cities</h1>
+        <h1 className='navbar-brand text-light'>Wishlist</h1>
+        <h1 className='navbar-brand text-light'>Explore</h1>
+        <h1 className='navbar-brand text-light'>Friends</h1>
       </nav>
+
+
 
       <CardList data={LocationData} />
 

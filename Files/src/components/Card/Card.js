@@ -6,7 +6,8 @@ const Card = ({ location }) => {
     <div className='card'>
       <img src={location.img.src} className='card-img-top' alt={location.img.alt} width = "300" height = "200"/>
       <div className='card-body'>
-        <h2 className='card-title'>{`${location.City}, ${location.Country}`}</h2>
+        <h2 className='card-title'>{`${location.City},`}</h2>
+        <h4 className = 'card-subtitle'>{`${location.Country}`}</h4>
       </div>
      </div>
   );
