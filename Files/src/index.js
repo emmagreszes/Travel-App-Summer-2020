@@ -1,40 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import CardList from './containers/CardList';
-import LocationList from './containers/LocationList';
-import './style.css';
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-import LocationData from '../assets/data.js'
-
-const App = () => {
-  return (
-   <>
-    <div className="jumbotron">
-    <h1>Travel App</h1>
-    <p>This application allows you to keep track of trips,
-    create a destination wish list,
-    and view other users previous trips to gain inspiration
-    for your next travel plans! </p>
-    </div>
-
-    <div className='container'>
-      <nav className='navbar sticky-top navbar-light bg-dark'>
-        <button className='navbar-brand text-light'>My Locations</button>
-        <button className='navbar-brand text-light'>Wishlist</button>
-        <button className='navbar-brand text-light'>Explore</button>
-        <button className='navbar-brand text-light'>Friends</button>
-      </nav>
-
-
-
-      <CardList data={LocationData} />
-
-
-    </div>
-   </>
-  );
-};
-
-ReactDOM.render(<App />, document.getElementById('root'));
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
