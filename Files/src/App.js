@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
+{/*import Login from './containers/Login.js';*/}
+import Home from './components/Home.js';
 import MyLocation from './components/MyLocation.js';
 import Friends from './components/Friends.js';
 import Wishlist from './components/Wishlist.js';
@@ -16,6 +18,14 @@ import Explore from './components/Explore.js';
 const App = () => {
   return (
    <>
+
+{/*}   <Router exact path="/Login">
+    <div className= "log-in">
+      <Login />
+    </div>
+    </Router> */}
+
+
     <div className="jumbotron">
     <h1>Travel App</h1>
     <p>This application allows you to keep track of trips,
@@ -28,7 +38,10 @@ const App = () => {
     <div className='container'>
       <ul className='navbar sticky-top navbar-light bg-dark'>
         <li className='navbar-brand text-light'>
-          <Link to="/"> My Locations</Link>
+          <Link to="/"> Home </Link>
+        </li>
+        <li className='navbar-brand text-light'>
+          <Link to="/MyLocation"> My Locations</Link>
         </li>
         <li className='navbar-brand text-light'>
           <Link to="/Wishlist"> Wishlist</Link>
@@ -42,6 +55,9 @@ const App = () => {
       </ul>
 
       <Switch>
+      <Route path="/Home">
+        <Home />
+      </Route>
         <Route path="/MyLocation">
           <MyLocation />
         </Route>
