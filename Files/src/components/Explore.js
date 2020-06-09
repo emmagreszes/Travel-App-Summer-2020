@@ -4,6 +4,11 @@ import CardList from '../containers/CardList';
 import '../style.css';
 import LocationData from '../../assets/data.js';
 
+/**
+- This page should have a search tool to be able to find new places
+- once you find a place it should have an option to add to wishlist
+**/
+
 const Explore = () => {
       return (
 
