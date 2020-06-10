@@ -7,8 +7,8 @@ export default
     "Last": "Gershman",
     "Status": "Online",
     "img": {
-      "src": "media/waltham.jpg",
-      "alt": "Waltham"
+      "src": "media/Ezra.jpg",
+      "alt": "Ezra"
     },
   },
 
@@ -19,8 +19,8 @@ export default
    "Last": "Greszes",
    "Status": "Offline",
    "img": {
-     "src": "media/jerusalem.jpg",
-     "alt": "Jerusalem"
+     "src": "media/Emma.jpg",
+     "alt": "Emma"
    },
  },
 
@@ -31,8 +31,8 @@ export default
    "Last": "Schwartz",
    "Status": "Offline",
    "img": {
-     "src": "media/jerusalem.jpg",
-     "alt": "Jerusalem"
+     "src": "media/Benji.jpg",
+     "alt": "Benji"
     },
 },
 
@@ -43,8 +43,8 @@ export default
    "Last": "Liebowitz",
    "Status": "Online",
    "img": {
-     "src": "media/jerusalem.jpg",
-     "alt": "Jerusalem"
+     "src": "media/Ron.jpg",
+     "alt": "Ron"
   },
 },
 
@@ -55,8 +55,8 @@ export default
    "Last": "Sherbin",
    "Status": "Offline",
    "img": {
-     "src": "media/jerusalem.jpg",
-     "alt": "Jerusalem"
+     "src": "media/Judith.jpg",
+     "alt": "Judith"
    },
 },
 ]
