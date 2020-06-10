@@ -1,6 +1,5 @@
 import React from 'react';
 import CardList from '../containers/CardList';
-//import LocationList from './containers/LocationList';
 import '../style.css';
 import LocationData from '../../assets/data.js';
 
@@ -19,6 +18,7 @@ const Explore = () => {
           and to manipulate state using hooks.
           </p>
         </div>
+
       )
 }
 

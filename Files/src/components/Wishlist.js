@@ -1,4 +1,7 @@
 import React from 'react';
+import CardList from '../containers/CardList';
+import '../style.css';
+import LocationData from '../../assets/data.js';
 
 /**
 - This page will look similar to MyLocation but for places that you
@@ -11,10 +14,7 @@ once it is visited
 const Wishlist = () => {
       return (
         <div>
-          <h2>About</h2>
-          <p> This app show how to create a multiscreen application
-          and to manipulate state using hooks.
-          </p>
+          <CardList data={LocationData} />
         </div>
       )
 }

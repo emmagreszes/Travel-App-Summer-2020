@@ -1,6 +1,6 @@
 import React from 'react';
-import CardList from '../containers/CardList';
-//import LocationList from './containers/LocationList';
+import FriendsList from '../containers/FriendsList';
+import FriendData from '../../assets/friends.js';
 import '../style.css';
 
 /**
@@ -12,11 +12,8 @@ const Friends = () => {
   return (
 
     <div>
-      <CardList data={[]} />
-      <h2>About</h2>
-      <p> This app show how to create a multiscreen application
-      and to manipulate state using hooks.
-      </p>
+      <FriendsList data={FriendData} />
+  
     </div>
   )
 }
