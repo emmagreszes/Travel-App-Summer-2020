@@ -1,7 +1,7 @@
 import React from 'react';
-import CardList from '../containers/CardList';
+/**import CardList from '../containers/CardList';**/
 import '../style.css';
-import LocationData from '../../assets/data.js';
+/**import LocationData from '../../assets/data.js';**/
 
 /**
 - This page should have cards of all locations visited
