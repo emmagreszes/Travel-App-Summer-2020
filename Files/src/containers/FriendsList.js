@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import FriendCard from '../components/Card/FriendCard';
-import './CardList.css'
+import './FriendsList.css'
 
 const FriendsList = ({data}) => {
   return (
