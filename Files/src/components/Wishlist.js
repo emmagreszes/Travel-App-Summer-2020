@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import useStickyState from '../useStickyState';
 import CardList from '../containers/CardList';
 import '../style.css';
 import locationData from '../../assets/wishlistData.js';
@@ -12,7 +13,7 @@ once it is visited
 **/
 
 const Wishlist = () => {
-  const [locations,setLocations]=useState(locationData)
+  const [locations,setLocations]=useStickyState(locationData, "wishlist")
   const [city,setCity]=useState("")
   const [country,setCountry]=useState("")
   const [image,setImage]=useState("")
@@ -36,7 +37,7 @@ const Wishlist = () => {
       image: <input type="text" id="image" name="image" onChange={updateImage}/><br />
       <input type="submit" value="add location to to list" />
     </form>
-    {city},{country}, {image}
+    {city}{country} {image}
     </div>
 
   )

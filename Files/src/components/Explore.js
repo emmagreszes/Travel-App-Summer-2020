@@ -33,7 +33,7 @@ const Explore = () => {
           image: <input type="text" id="image" name="image" onChange={updateImage}/><br />
           <input type="submit" value="add location to to list" />
         </form>
-        {city},{country}, {image}
+        {city}{country}{image}
         </div>
 
       )

@@ -5,7 +5,6 @@ export default
     "Username": "EzzyGersh23",
     "First": "Ezra",
     "Last": "Gershman",
-    "Status": "Online",
     "img": {
       "src": "media/Ezra.jpg",
       "alt": "Ezra"
@@ -17,7 +16,6 @@ export default
    "Username": "EmmaIsNice",
    "First": "Emma",
    "Last": "Greszes",
-   "Status": "Offline",
    "img": {
      "src": "media/Emma.jpg",
      "alt": "Emma"
@@ -29,7 +27,6 @@ export default
    "Username": "BenjiSchwartz",
    "First": "Benji",
    "Last": "Schwartz",
-   "Status": "Offline",
    "img": {
      "src": "media/Benji.jpg",
      "alt": "Benji"
@@ -41,7 +38,6 @@ export default
    "Username": "RonL",
    "First": "Ron",
    "Last": "Liebowitz",
-   "Status": "Online",
    "img": {
      "src": "media/Ron.jpg",
      "alt": "Ron"
@@ -53,7 +49,6 @@ export default
    "Username": "Jsherb",
    "First": "Judith",
    "Last": "Sherbin",
-   "Status": "Offline",
    "img": {
      "src": "media/Judith.jpg",
      "alt": "Judith"

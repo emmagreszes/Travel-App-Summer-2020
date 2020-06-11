@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../../containers/CardList.css'
 
 const Card = ({ location }) => {
   return (
