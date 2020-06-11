@@ -1,7 +1,7 @@
 
 # Travel App
 
-> This App allows users to log their travel experiences, organize their dream site-seeing vacations, and connect and view friends' travel logs as well. Users will be able to access an interactive map which will feature sites logged added by other members.
+> This app allows users to log their travel experiences, organize their dream site-seeing vacations, and connect and view friends' travel logs as well. Users will be able to access an interactive map which will feature sites logged added by other members.
 
 
 **Pages**
@@ -31,12 +31,12 @@
 
 ### Clone
 
-- Clone this repository to your computer using the following link: `https://github.com/fvcproductions/SOMEREPO`
+- Clone this repository to your computer using the following link: `https://github.com/emmagreszes/Travel-App-Summer-2020.git`
 - In your computer's terminal, create a folder and cd to the appropriate directory
-- Type the following in github:
+- Type the following in your terminal: 
 
 ```shell
-$ git clone
+$ git clone https://github.com/emmagreszes/Travel-App-Summer-2020.git
 ```
 ### Running the App
 
