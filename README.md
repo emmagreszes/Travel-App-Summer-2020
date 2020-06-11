@@ -5,7 +5,7 @@
 
 
 **Pages**
-> Below is a list of the pages that will be featured on this App
+> Below is a list of the pages that will be featured on this app
 - Home: login page
 - Explore: implements google maps API with location pins. Discover interesting travel spots that members have added 
 - My Locations: log each city that you have visited and add each interesting site
@@ -23,3 +23,26 @@
    - Create login
    - Create friending network
     
+---
+
+## Installation
+
+- All of the `code` required to run this app is featured in this repository
+
+### Clone
+
+- Clone this repository to your computer using the following link: `https://github.com/fvcproductions/SOMEREPO`
+- In your computer's terminal, create a folder and cd to the appropriate directory
+- Type the following in github:
+
+```shell
+$ git clone
+```
+### Running the App
+
+- Edit the code in your text editor
+- Run the app on your browser using the following commands:
+```shell
+$ npm install
+$ npm start
+```
